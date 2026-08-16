@@ -1,0 +1,84 @@
+[DOCUMENT]
+TITLE: Mission Records
+
+[GRAMMAR]
+IMPORT_FROM_FILE: @program
+
+[MISSION_RECORD]
+UID: TVC-MO-001
+RECORD_TYPE: Objective
+TITLE: Maintain Attitude
+SUBTEAM_OWNER: Systems
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: Powered Ascent
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: Demonstrate that the vehicle can maintain attitude under nominal launch conditions.
+RATIONALE: This mission objective demonstrates the program goal of thrust-vector control during powered ascent.
+
+[MISSION_RECORD]
+UID: TVC-MO-002
+REQUIREMENT_TYPE: 
+RECORD_TYPE: Objective
+TITLE: Respond to Environmental Factors
+SUBTEAM_OWNER: Systems
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: Powered Ascent
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: Demonstrate that the vehicle can maintain attitude in response to reasonable environmental factors, such as wind gusts. Other environmental factors include tempearture, humidity, and pressure.
+RATIONALE: This mission objective demonstrates the program goal of thrust-vector control, even in response to some expected enivoronmental factors. Reasonable is based on the average expected conditions on the launch site. For example, for wind, a reasonable wind condition would be the average maximum gust over the course of a week.
+
+[MISSION_RECORD]
+UID: TVC-MO-003
+RECORD_TYPE: Objective
+TITLE: Capture Social Media Ready Content
+SUBTEAM_OWNER: Systems
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: All
+MISSION_PHASE: All
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: Capture social media ready video of all phases of launch defined in program configuration, with at least 2 angles of each. 
+RATIONALE: This mission objective supports the overall GNC mission of recruiting and training members for the future, with high-quality social media content an integral part of doing so.
+
+[MISSION_RECORD]
+UID: TVC-MO-004
+RECORD_TYPE: Objective
+TITLE: Rapid Launch Turnaround
+SUBTEAM_OWNER: Systems
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: All
+MISSION_PHASE: All
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: Achieve a rapid rocket launch turnaround capability, allowing for 3+ launches per launch day, assuming no major failures in any system.
+RATIONALE: This mission objective supports the overall GNC mission of rapid launch, reusability, iteration, and testing by allowing for multiple launches each launch day.
+
+[MISSION_RECORD]
+UID: TVC-MO-005
+RECORD_TYPE: Objective
+TITLE: Capture Data
+SUBTEAM_OWNER: Systems, Electrical, Software
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: All
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: Achieve data capture of all important flight parameters, including but not limited to raw sensor output, state estimation data, state machine status, etc...
+RATIONALE: This mission objective supports GNC's goal of iteration by providing data for flight analysis and iteration.
+
+[MISSION_RECORD]
+UID: TVC-MO-006
+RECORD_TYPE: Objective
+TITLE: Recovery
+SUBTEAM_OWNER: Systems, Structures, Electrical, Software
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: Parachute Descent
+OPEN_ITEM_STATUS: None 
+STATUS: Draft
+STATEMENT: Achieve a soft landing of the rocket under parachute with nominal mission parameters.
+RATIONALE: This mission objective supports GNC's goal of rapid launch and reusability, along with preservation of data, and limitation of resources used.

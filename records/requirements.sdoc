@@ -1,0 +1,25 @@
+[DOCUMENT]
+TITLE: Requirements
+
+[GRAMMAR]
+IMPORT_FROM_FILE: @program
+
+[REQUIREMENT]
+UID: TVC-REQ-002
+LEVEL: L1
+REQUIREMENT_TYPE: Functional
+TITLE: Ease of Integration
+APPLICABLE_SUBSYSTEM: Airframe, Propulsion, Actuation, Recovery
+SUBTEAM_OWNER: Systems, Structures, Electrical
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: Pre-Launch
+FLIGHT_ATTEMPT: All
+OPEN_ITEM_STATUS: None
+VERIFICATION_METHOD: Simulate launch conditions in G5. Collect members that will be at launch, prepare tools expected to be at launch, and have them prepare the rocket for launch, from unpacking everything to having the rocket on a simulated pad.
+STATUS: Draft
+STATEMENT: The vehicle must be able to be fully integrated, launched, and recovered within 2 hours, under nominal conditions.
+RATIONALE: This requirement decomposes TVC-MO-004, specifically focusing on the vehicle, and giving a specific timeframe for complete turnaround. Most launch sites are open from 10 AM to 4 PM, so 2 hours is the absolute maximum each launch may take. This does not take into account failures, which are varied and more specifically specified in the Concept of Operations documents.
+RELATIONS:
+- TYPE: Parent
+  VALUE: TVC-MO-004
