@@ -16,9 +16,9 @@ VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: Pre-Launch
 FLIGHT_ATTEMPT: All
 OPEN_ITEM_STATUS: None
-VERIFICATION_METHOD: Simulate launch conditions in G5. Collect members that will be at launch, prepare tools expected to be at launch, and have them prepare the rocket for launch, from unpacking everything to having the rocket on a simulated pad.
+VERIFICATION_METHOD: Demonstration
 STATUS: Draft
-STATEMENT: The vehicle must be able to be fully integrated, launched, and recovered within 2 hours, under nominal conditions.
+STATEMENT: The vehicle shall be fully integrated, launched, and recovered within 2 hours under nominal conditions.
 RATIONALE: This requirement decomposes TVC-MO-004, specifically focusing on the vehicle, and giving a specific timeframe for complete turnaround. Most launch sites are open from 10 AM to 4 PM, so 2 hours is the absolute maximum each launch may take. This does not take into account failures, which are varied and more specifically specified in the Concept of Operations documents.
 RELATIONS:
 - TYPE: Parent
