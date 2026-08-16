@@ -1,0 +1,33 @@
+[DOCUMENT]
+TITLE: Demo Mission Records
+
+[GRAMMAR]
+IMPORT_FROM_FILE: @program
+
+[MISSION_RECORD]
+UID: TVC-MO-001
+RECORD_TYPE: Objective
+TITLE: Demo Controlled Ascent
+SUBTEAM_OWNER: Systems
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: Powered ascent
+FLIGHT_ATTEMPT: Flight 1
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: Demonstrate that the vehicle can maintain vertical attitude during powered ascent under nominal launch conditions.
+RATIONALE: This demo objective exists to exercise the StrictDoc mission-record workflow before the real TVC mission objectives are authored.
+
+[MISSION_RECORD]
+UID: TVC-MC-001
+RECORD_TYPE: Constraint
+TITLE: Demo Range Compliance
+SUBTEAM_OWNER: Systems
+INDIVIDUAL_OWNER: Systems Lead
+VEHICLE_CONFIGURATION: All
+MISSION_PHASE: All
+FLIGHT_ATTEMPT: All
+OPEN_ITEM_STATUS: None
+STATUS: Draft
+STATEMENT: The vehicle shall comply with applicable range safety rules for the selected launch site.
+RATIONALE: This demo constraint exists to exercise mission-constraint traceability before the real TVC mission constraints are authored.
