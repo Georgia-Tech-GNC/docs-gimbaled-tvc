@@ -1,0 +1,29 @@
+[DOCUMENT]
+TITLE: Risks
+
+[GRAMMAR]
+IMPORT_FROM_FILE: @program
+
+[RISK]
+UID: TVC-RISK-001
+RISK_TYPE: Mission Success
+TITLE: Gimbal Actuator Failure In-Flight
+SUBTEAM_OWNER: Structures
+INDIVIDUAL_OWNER: Structures Lead 
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: Powered Ascent
+FLIGHT_ATTEMPT: All
+INITIAL_LIKELIHOOD: Medium
+INITIAL_SEVERITY: High
+CURRENT_LIKELIHOOD: Medium
+CURRENT_SEVERITY: High
+RISK_RESPONSE: Mitigate
+RESPONSE_PLAN: Test the gimbal under load and update gimbal design for robustness if needed.
+DUE_DATE: Before CDR
+STATUS: Open
+CONDITION: A gimbal actuator binds, stalls, or loses power during powered ascent.
+CONSEQUENCE: The vehicle loses attitude control mid-burn and becomes vertically uncontrollable.
+RELATIONS:
+- TYPE: Parent
+  VALUE: TVC-REQ-006
+  ROLE: Affects

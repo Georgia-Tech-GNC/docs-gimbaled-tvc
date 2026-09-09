@@ -1,0 +1,4 @@
+To verify requirements 5, 6, and 7, use a laser mounted to the center of the gimbal, along with a digital laser tracking plate, such as the Milwaukee High Visibility Center Alisgnment Target. Using the actuator board, or another way to actuate the servos, run through a range of tests:
+- Command the gimbal to the [TBD_GimAngle] and confirm the gimbal can reach the angle
+- Command the gimbal to the [TBD_GimAngle] and confirm whether the gimbal can reach the angle in [TBD_GimVel] degrees/sec
+- Command the gimbal, from 0, to [TBD-TVCFid] degrees, repeatedly. Ensure the gimbal accurately is able to command to that angle.

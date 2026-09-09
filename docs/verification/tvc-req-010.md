@@ -1,0 +1,1 @@
+Walk through the entire pre-launch procedure (as is required by TVC-REQ-001). As the launch procedure is run, verify that all debugging interfaces and reset interfaces are indeed available, without requiring disassembly, throughout the course of the integration procedure.

@@ -1,0 +1,1 @@
+While running tests to verify TVC-REQ-054, run the same test but block the RF signal using a Faraday cage/box. Send the command, wait 30 seconds, then remove the RF signal blocking. Verify the TVC shuts off.

@@ -1,0 +1,1 @@
+During a design review of schematics, confirm there is a separate power rail for the recovery system.

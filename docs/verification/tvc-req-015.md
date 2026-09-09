@@ -1,0 +1,1 @@
+Weigh all gimbal components, including servos, wires, COTS components, and the motor sleeve. Ensure it is under 350 grams. Weight the assembly again after any design changes.

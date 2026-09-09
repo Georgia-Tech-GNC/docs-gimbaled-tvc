@@ -1,0 +1,1 @@
+Power up the flight computer, and inject state transitions/sensor data via injected test inputs. Injected data is test data that is read into the flight software, instead of real sensor date. After the test concludes, read the SD card log and confirm it contains all expected data (timestamps, state, state estimation outputs, etc...), and is accurate. 

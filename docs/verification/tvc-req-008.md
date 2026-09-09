@@ -1,0 +1,1 @@
+Visually observe the physical inhibit/enable switch. Toggle the inhibit/enable switch and ensure the MCU can read the correct state in both cases. Attempt to set off fire wire in both states, and ensure it does not go off in the inhibit state, but does go off in the enable state.

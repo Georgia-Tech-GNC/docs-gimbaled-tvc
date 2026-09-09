@@ -1,0 +1,1 @@
+On a bench, apply reverse polarity then plug in an incorrect battery (Higher cell) to the board. After doing each, confirm the board resumes normal operation by ensuring sensors can still be read.

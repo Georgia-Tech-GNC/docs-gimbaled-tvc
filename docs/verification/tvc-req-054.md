@@ -1,0 +1,1 @@
+Run a hardware in the loop test where the rocket is attempting to move the gimbal, then click controls shutoff on the ground station. Verify the controls does shut off by visually inspecting the gimbal returning to 0, then power turned off (attempt to move the gimbal, if it moves and does not provide resistance then power is turned off).

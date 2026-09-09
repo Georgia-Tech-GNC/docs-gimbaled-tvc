@@ -1,0 +1,1 @@
+Measure the board stack axial profile using calipers, and ensure it stays within the profile mentioned in TVC-REQ-012.

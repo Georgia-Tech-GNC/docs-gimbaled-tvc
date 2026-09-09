@@ -1,0 +1,1 @@
+On the bench, log the time that the flight computer receives sensor readings for each peripheral. Ensure it matches the [TBD-UpdateRate].

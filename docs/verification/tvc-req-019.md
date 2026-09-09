@@ -1,0 +1,1 @@
+In a design review, verify that GNCSim can produce read in flight state, update actuation, then update rocket state and read in the new state. Stability, response-time, and steady-state error numbers for the closed loop system should also be verified to work in the model. This constitutes as "modeling" the closed loop system.

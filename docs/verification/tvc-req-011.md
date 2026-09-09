@@ -1,0 +1,1 @@
+Export the .step model of the flight computer board to Solidworks and place it inside the avionics bay. Create low fidelity volume (no details, just the overall volume) models of all connectors and antennas. Run a Solidworks interference check to ensure there is none.

@@ -1,0 +1,1 @@
+Do a hardware in the loop test with the test setup from TVC_REQ-005/6/7. Actuate the gimbal with the flight computer, find speed using the laser pad, and verify it meets requirements. If TVC REQ 005-007 are verified with the flight computer, then this already verifies this requirement.

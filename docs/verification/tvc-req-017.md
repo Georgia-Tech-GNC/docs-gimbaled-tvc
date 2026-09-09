@@ -1,0 +1,1 @@
+Weigh all other rocket components not previously weighed, including airframe, nosecone, recovery mass, rocket paint, and other misc. components (Such as rail buttons). Ensure these components do not have a mass exceeding 200 grams. Re-weigh with any design changes.

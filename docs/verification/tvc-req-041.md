@@ -1,0 +1,1 @@
+In a pre-launch checklist (Before leaving ESM), check that every wire is labeled and that the label won't fall off.

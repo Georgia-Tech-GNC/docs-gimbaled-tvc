@@ -1,0 +1,1 @@
+Check the board schematic for specific test points, and ensure they are visible and available. Attempt to find the voltage between test points and common ground for each.

@@ -1,0 +1,1 @@
+Run the software loop on the bench with all sensor data being read, log loop timing to the SD Card or alternative method, and ensure the loop runs at the [TBD-UpdateRate] Hz.

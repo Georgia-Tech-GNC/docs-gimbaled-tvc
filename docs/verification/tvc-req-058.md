@@ -1,0 +1,1 @@
+Before going to launch, include a step in the pre-launch checklist to check the GNC-Photos slack channel for photos, and check off photos for every sub-system.

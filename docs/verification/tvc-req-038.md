@@ -1,0 +1,1 @@
+Manually grab the rocket and rapidly jolt it upwards to simulate launch. Run test software to read the state live on a laptop, and ensure the state transitions after the rocket is rapidly jolted upward.

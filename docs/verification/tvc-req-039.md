@@ -1,0 +1,1 @@
+Calculate the battery capacity against the power draw of the board, and all expected events (Actuation of gimbal). Ensure the battery will operate for at least two hours of runtime.

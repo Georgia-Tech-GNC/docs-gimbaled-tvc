@@ -1,0 +1,1 @@
+In GNCSim, model the rocket under a 10 MPH wind for the launch. Confirm the rocket can maintain attitude under this condition.

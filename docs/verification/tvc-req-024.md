@@ -1,0 +1,1 @@
+Confirm that the selected motor's burn time, from thrust-curve.com, meets or exceeds 3 seconds.

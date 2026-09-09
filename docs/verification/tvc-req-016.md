@@ -1,0 +1,1 @@
+Measure the mass of all avionics components, including the avionics bay, the boards, connectors, antennas, batteries, wiring, etc... Ensure it stays under 450 grams. Re-weigh after any design changes.

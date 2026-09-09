@@ -1,0 +1,1 @@
+Each subteam shall enforce a specific cutoff for changes, so this requirement is verified at a level below.

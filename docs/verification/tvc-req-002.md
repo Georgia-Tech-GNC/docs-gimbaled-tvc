@@ -1,0 +1,1 @@
+Test each fire wire channel (At least 3) with a test script, firing real fire wire at a safe distance from persons and the computer. Confirm the fire wire is set off at least twice on each channel.

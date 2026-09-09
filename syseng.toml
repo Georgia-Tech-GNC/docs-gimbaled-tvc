@@ -2,5 +2,5 @@ project_title = "LPRTVC"
 project_prefix = "TVC"
 records_dir = "records"
 allowed_vehicle_configurations = ["TVC-F1"]
-allowed_mission_phases = ["Pre-Launch", "Pad", "Powered Ascent", "Uncontrolled Descent", "Parachute Descent", "Post-Landing"]
-allowed_flight_attempts = ["Flight 1"]
+allowed_mission_phases = ["Pre-Launch", "Powered Ascent", "Uncontrolled Descent", "Parachute Descent", "Post-Landing"]
+allowed_flight_attempts = ["Flight 1", "Flight 2", "Flight 3", "Flights 1-3", "Flights 4+"]

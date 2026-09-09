@@ -1,0 +1,1 @@
+Before launch day, confirm that the G12ST motor has been ordered and is in stock in the fire cabinet. Confirm the order date and whether the motor has an expiration date. Confirm the motor has no moisture on it.

@@ -1,0 +1,1 @@
+Bench test the controls algorithm, and ensure that all the sensors are updating at the correct rate (From TVC-REQ-047). Ensure the flight control loop is also running at the correct rate (Hz from TVC-REQ-047).

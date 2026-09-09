@@ -1,0 +1,1 @@
+The rocket Solidworks must have materials added to it. In a design review, complete analysis of all airframe materials and present it. Verification will be of all airframe materials.

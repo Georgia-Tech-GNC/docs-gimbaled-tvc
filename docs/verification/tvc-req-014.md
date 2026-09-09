@@ -1,0 +1,1 @@
+Weigh the fully integrated rocket with all components (Boards, batteries, actuation, recovery), without a motor or black powder. Ensure it has a maximum of 1050 grams. Re-verify after any design changes due to thin mass margins.

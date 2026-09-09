@@ -1,0 +1,1 @@
+In a design review, confirm that GNCSim can correctly and completely model the listed rocket elements, including dynamics, aerodynamics, sensors, actuator, wind. The team may add elements as needed.

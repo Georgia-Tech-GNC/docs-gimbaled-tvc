@@ -1,0 +1,1 @@
+Check any tags on the material of the airframe used, or use engineering judgement to verify it is cardboard. Verify the tube is NOT phenolic, blue tube, or another material.

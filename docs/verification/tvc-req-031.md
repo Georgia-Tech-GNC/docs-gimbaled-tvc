@@ -1,0 +1,1 @@
+Demonstrate that the launchpad can be placed on flat land, using land right around Aerospace Buildings to do so. Also, demonstrate the wireless ignition capabilities.

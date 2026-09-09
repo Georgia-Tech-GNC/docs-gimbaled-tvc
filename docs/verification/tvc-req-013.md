@@ -1,0 +1,1 @@
+Measure the flight computer stack footprint to ensure it is under 2.8 inches by 10 inches.

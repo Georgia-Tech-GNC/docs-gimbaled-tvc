@@ -1,0 +1,1 @@
+Review the Aero lookup table provided to verify it covers the exepceted mach range of the rocket (Up to around Mach 0.5 as of 9/2/2026) and AoA (TBD based on max controls shutoff). Five data points should be verified against hand-calcs.

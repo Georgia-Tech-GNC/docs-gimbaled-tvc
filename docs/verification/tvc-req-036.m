@@ -1,0 +1,1 @@
+Use OpenRocket to model the entire rocket, and correct masses. Also model the parachute with the right size and drag coefficient (From the manufacturer). Use OpenRocket simulation to confirm the final descent rate of the parachute, as it hits the ground.

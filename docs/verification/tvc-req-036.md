@@ -1,0 +1,1 @@
+Model the rocket in OpenRocket, using the correct masses. Place the parachute with the correct size and drag coefficient (From the manufacturer). Simulate the rocket in OpenRocket and confirm descent rate is under 20 ft/s.

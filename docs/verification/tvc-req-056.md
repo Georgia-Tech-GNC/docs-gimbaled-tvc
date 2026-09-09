@@ -1,0 +1,1 @@
+With the inhibit engaged, attempt to send a signal from the ground station to ignite the motor. Check the voltage on the ignition leads, verify there is no voltage spike. Enable the ignition, and attempt to send the signal again. Verify there is a voltage spike.

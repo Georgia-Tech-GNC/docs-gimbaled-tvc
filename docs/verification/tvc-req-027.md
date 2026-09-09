@@ -1,0 +1,1 @@
+Set up a couple of pads to drop test the rocket onto. Set up the recovery system with the full avionics in the rocket (Do not include gimbal in the rocket). Drop the rocket from above and ensure the fire wire is set off and the parachute is deployed. Set up an incredibly simple method of electronically dropping the rocket for safety reasons (No human may drop it).

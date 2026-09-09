@@ -1,0 +1,1 @@
+Bundle this verification with TVC-REQ-038. Have the test software log when the rocket detects launch, and then when it controls are actually turned on. Run the test with the gimbal, and visually verify the gimbal does not move until the log confirms the actuation is confirmed.

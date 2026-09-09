@@ -1,0 +1,1 @@
+Create a controlled file in GitHub of the current PID gains. At launch, verify the last commit date for this file is 0.5 weeks beforehand, at least.

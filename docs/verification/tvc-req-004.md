@@ -1,0 +1,1 @@
+Transmit injected data from the flight computer to the ground station via telemetry, at the max expected distance (Launch Range + Max altitude). Confirm all telemetry fields are properly read and displayed on the ground station, and that packet loss is acceptable (Single digit packet loss over the course of the mission). 

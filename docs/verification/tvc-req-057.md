@@ -1,0 +1,1 @@
+On the pre-launch checklist, have a step to verify that at least three ground cameras are being packed in the launch equipment.

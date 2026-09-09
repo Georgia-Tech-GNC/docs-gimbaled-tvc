@@ -1,0 +1,1 @@
+Visually inspect the rocket and trace out all wiring harness paths. Measure the distance between each mounting point and ensure it is less than 0.75 inches.

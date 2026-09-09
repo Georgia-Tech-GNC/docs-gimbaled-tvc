@@ -1,0 +1,1 @@
+Verify that the launch rail can be removed and added to the launch rail at will, with little effort (Under two mins to add and remove it).

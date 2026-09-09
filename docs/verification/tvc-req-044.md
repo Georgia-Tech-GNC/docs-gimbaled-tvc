@@ -1,0 +1,1 @@
+When loading flight software at launch, check the last commit date and ensure it is 0.5 weeks before the current date. 

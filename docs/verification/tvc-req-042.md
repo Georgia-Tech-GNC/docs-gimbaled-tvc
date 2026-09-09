@@ -1,0 +1,1 @@
+Physically remove and replace the motor holder (motor sleeve) on the gimbal, ensuring that replacement takes under two minutes.

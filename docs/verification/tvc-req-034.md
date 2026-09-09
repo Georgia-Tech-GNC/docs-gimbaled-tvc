@@ -1,0 +1,1 @@
+This requirement will be verified via the resolution plan; run ejection tests in NARA to find the right amount of black powder. The test should also verify that the nosecone pops off, and recovery is deployed.
