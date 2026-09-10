@@ -1,0 +1,3 @@
+<div class="document">
+<p>The flight computer shall be capable of controlling the actuators for the gimbal. It shall be able to send commands in order to meet minimum requirements for speed of the gimbal (TVC-REQ-006), [TBD_GimbalVelocity]</p>
+</div>

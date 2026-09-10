@@ -1,0 +1,3 @@
+<div class="document">
+<p>Need to set a specific delay before the rocket begins controlling the gimbal, in order for the rocket to clear the rail before starting active controls. Use rail length to determine the length.</p>
+</div>

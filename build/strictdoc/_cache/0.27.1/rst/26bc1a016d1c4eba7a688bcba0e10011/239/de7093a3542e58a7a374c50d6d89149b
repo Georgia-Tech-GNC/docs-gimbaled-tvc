@@ -1,0 +1,3 @@
+<div class="document">
+<p>Demonstrate that the vehicle can shut off controls when determined that the rocket attitude can not be recovered. Shutting off controls is defined as actuating the gimbal to its known 0 position, then cutting power to the gimbal actuators.</p>
+</div>

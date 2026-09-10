@@ -1,0 +1,3 @@
+<div class="document">
+<p>Every state in the state machine shall have clearly defined entry and exit criteria. Implementation of the entry and exit criteria shall match the criteri and prevent any invalid state transitions (Ex: Transitions to other states when unintended)</p>
+</div>

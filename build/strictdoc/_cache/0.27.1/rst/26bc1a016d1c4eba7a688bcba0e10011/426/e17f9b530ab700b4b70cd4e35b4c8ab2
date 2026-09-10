@@ -1,0 +1,3 @@
+<div class="document">
+<p>The flight software and supporting systems that the rocket will use shall prevent changes less than 0.5 weeks before the expected launch date. Tracking for flight software shall be done using github, and no commits from after the 0.5 week cutoff shall be used in the flight software for launch. For each version of flight software that is flown on a rocket, it must be tagged in Github with the flight number. (Tag: Flight #).</p>
+</div>

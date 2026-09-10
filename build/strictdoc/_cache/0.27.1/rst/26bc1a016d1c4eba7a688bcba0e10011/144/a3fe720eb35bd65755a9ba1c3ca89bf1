@@ -1,0 +1,3 @@
+<div class="document">
+<p>Controls requires a minimum update rate of the control loop, and the controllers must follow this update rate to support this control loop rate.</p>
+</div>

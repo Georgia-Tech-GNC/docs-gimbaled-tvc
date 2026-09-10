@@ -1,0 +1,3 @@
+<div class="document">
+<p>This mission objective ensures that the rocket does not try to control attitude at a point when it can no longer do so, and it may be unsafe to continue attempting to do so. Lower level requirement more clearly defines the conditions where rocket attitude can not be recovered.</p>
+</div>

@@ -1,0 +1,3 @@
+<div class="document">
+<p>Each state in a state machine must have a way to enter and exit. It is flight critical that the rocket does not enter a state when it is not intended for it to do so. For example, if the rocket were to enter the state pertaining to recovery prematurely, and prematurely deploy the parachute before motor burnout, that would be detrimental to the mission objectives.</p>
+</div>

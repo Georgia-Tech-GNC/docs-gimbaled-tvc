@@ -1,0 +1,3 @@
+<div class="document">
+<p>The rocket should not attempt to control itself until it has cleared the rail, as the rail is controlling the attitude at this point, and gimballing is likely to just cause more friction between the rail buttons and the rail.</p>
+</div>

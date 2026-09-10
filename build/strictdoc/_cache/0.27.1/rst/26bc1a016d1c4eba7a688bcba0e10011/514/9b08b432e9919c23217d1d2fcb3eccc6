@@ -1,0 +1,3 @@
+<div class="document">
+<p>In order to demonstratably show the rocket controlling its attitude, it must have a long enough burn time to give the control system time to correct any errors in atttitude. Assuming it takes the rocket ~1 second to clear the launch rail, a minimum of a three second burn time gives the rocket ~2 seconds to correct any errors in attitude. From previous program experience, this should be enough to discernebly notice whether the control system is reacting to the other, along with collecting enough data to do so.</p>
+</div>

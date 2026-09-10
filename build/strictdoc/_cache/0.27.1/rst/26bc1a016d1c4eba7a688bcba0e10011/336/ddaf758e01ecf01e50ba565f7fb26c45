@@ -1,0 +1,3 @@
+<div class="document">
+<p>The Flight Computer shall log all determined relevant flight data on an onboard SD-Card. This includes all raw sensor data (IMU, Barometer, other peripherals), relevant state estimation outputs (State Vector), actuator command outputs, individual control outputs, timestamps for each set of data, and current state of the state machine.</p>
+</div>

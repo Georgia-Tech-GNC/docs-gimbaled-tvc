@@ -1,0 +1,3 @@
+<div class="document">
+<p>The team-built rocket ignition method shall use a Commerical off the shelf (COTS) micrcontroller (Such as Raspberry Pi), using an e-match and supporting components (Ex: Wiring). The micrcontroller must have built in wireless communication capabilities or include a component (such as an external radio) that allows it to do so. The wireless communication method shall be: [TBD_WirelessCommMethod].</p>
+</div>

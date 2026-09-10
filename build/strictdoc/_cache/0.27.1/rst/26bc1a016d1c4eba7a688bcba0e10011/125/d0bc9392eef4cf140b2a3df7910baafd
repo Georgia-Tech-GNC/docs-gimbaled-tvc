@@ -1,0 +1,3 @@
+<div class="document">
+<p>The controls algorithm shall be delayed by [TBD_DelaySeconds] after launch is detected, before active controls are activated.</p>
+</div>

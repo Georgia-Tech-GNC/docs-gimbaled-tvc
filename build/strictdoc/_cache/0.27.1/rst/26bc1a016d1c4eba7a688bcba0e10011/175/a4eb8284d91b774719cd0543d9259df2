@@ -1,0 +1,3 @@
+<div class="document">
+<p>The flight computer shall support a physical inhibit/enable switch for the fire wire, with physical on-board feedback of inhibit/enable status that the microntroller can read.</p>
+</div>

@@ -1,0 +1,3 @@
+<div class="document">
+<p>According to OpenRocket, the thrust:weight ratio off the pad is ~2. Removing gravity, this is 1G acceleration. Applying a scaling factor of 0.5, which balances sensitivty and gives a tolerance for acceleration, this gives a launch condition of +0.5G. 50ms ensures that random disturbances do not trigger the launch (Control loop runs at &gt;20Hz), while also ensuring that launch is detected quickly, reducing time when the rocket does not control itself.</p>
+</div>

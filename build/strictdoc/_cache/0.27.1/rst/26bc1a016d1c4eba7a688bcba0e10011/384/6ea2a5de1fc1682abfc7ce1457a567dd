@@ -1,0 +1,3 @@
+<div class="document">
+<p>The rocket controls shall be turned off when unsafe conditions are reached. Unsafe conditions include: (1) Rocket [TBD_UnsafeDeg] degrees from vertical, (2) Rocket has [TBD_UnsafeRate] angular rate in Pitch/Yaw, (3) Rocket has [TBD_UnsafeRate2] angular rate in Roll. Controls shutoff invovles actuating the gimbal to the known 0 position, then cutting power from the gimbal actuators.</p>
+</div>

@@ -1,0 +1,3 @@
+<div class="document">
+<p>A simple, 1D simulation was put together in order to Validate this requirement. That simulation can be found in docs/Configuration/TVC-REQ-013 folder. This simple 1-D simulation is required, as OpenRocket cannot properly simulate the full flight of an unstable rocket. The mass of the rocket in the simulation was adjusted to find the absolute maximum mass that allowed for around 50 feet of altitude gain, with some tolerance. This ensures the rocket, assuming a mostly vertical flight, will not reach the ground before motor burnout.</p>
+</div>

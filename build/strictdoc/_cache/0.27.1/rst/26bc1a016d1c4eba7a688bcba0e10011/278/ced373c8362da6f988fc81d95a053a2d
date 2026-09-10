@@ -1,0 +1,3 @@
+<div class="document">
+<p>The flight computer shall send relevant flight data to a ground station via telemetry data packets. This includes state estimation outputs (State Vector), actuator commands outputs, individual control outputs, timestamps since launch, and the current state of the state machine.</p>
+</div>

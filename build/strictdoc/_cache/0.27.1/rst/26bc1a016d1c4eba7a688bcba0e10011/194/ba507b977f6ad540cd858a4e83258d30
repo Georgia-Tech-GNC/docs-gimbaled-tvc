@@ -1,0 +1,3 @@
+<div class="document">
+<p>In order to run on-board controls, the flight computer must do so. It shall not be a limiting factor for the control loop rate. The flight computer also must have the required sensors to do GNC.</p>
+</div>

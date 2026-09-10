@@ -1,0 +1,3 @@
+<div class="document">
+<p>Demonstrate that the vehicle software uses a state machine, with clearly defined state transitions and no undefined states, for all flight conditions.</p>
+</div>

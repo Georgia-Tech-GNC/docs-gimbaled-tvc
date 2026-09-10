@@ -1,0 +1,3 @@
+<div class="document">
+<p>The flight software shall detect launch, and once it does transition the state machine to powered ascent (Where active controls will be active). The conditions to detect launch shall be: Acceleration above +0.5G for 50 ms.</p>
+</div>

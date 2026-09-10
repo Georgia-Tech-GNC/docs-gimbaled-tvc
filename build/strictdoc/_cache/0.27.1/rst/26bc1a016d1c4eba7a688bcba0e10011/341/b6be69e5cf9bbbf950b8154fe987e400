@@ -1,0 +1,3 @@
+<div class="document">
+<p>The rocket launch range, [TBD_LaunchRange], shall be derived via Monte Carlo flight dynamic simulation. The vehicle's max TVC limit, aerodynamic load range, maximum determined failire modes should be considered. For range safety, altitude shall not be a consideration (At any range, the rocket is deemed unsafe, even if at a higher altitude)</p>
+</div>

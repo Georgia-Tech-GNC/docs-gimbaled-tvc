@@ -1,0 +1,3 @@
+<div class="document">
+<p>For major board circuitry, such as the recovery circuit, it shall be possible to physically check voltage using test points on the board. Important power lines, recovery circuitry, microntroller debugging, interfaces (CAN, JTAG), and more should include test points.</p>
+</div>

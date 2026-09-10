@@ -1,0 +1,3 @@
+<div class="document">
+<p>In order to derive a control loop algorithm, the team must use GNCSim to model the rocket, the control algorithm, and use GNCSim to evaluate the control algorithm (Stability, Response Time, Steady State Error, etc...)</p>
+</div>

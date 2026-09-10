@@ -1,0 +1,2251 @@
+{
+    "_COMMENT": "Fields with _ are metadata. Fields without _ are the actual document/section/requirement/other content.",
+    "DOCUMENTS": [
+        {
+            "_NODE_TYPE": "DOCUMENT",
+            "TITLE": "Mission Records",
+            "GRAMMAR": {
+                "ELEMENTS": [
+                    {
+                        "NODE_TYPE": "TEXT",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATEMENT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": []
+                    },
+                    {
+                        "NODE_TYPE": "MISSION_RECORD",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RECORD_TYPE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "TITLE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "SUBTEAM_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INDIVIDUAL_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VEHICLE_CONFIGURATION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "MISSION_PHASE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "FLIGHT_ATTEMPT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "OPEN_ITEM_STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_OWNER",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_PLAN",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_DUE_DATE",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATEMENT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RATIONALE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": []
+                    },
+                    {
+                        "NODE_TYPE": "REQUIREMENT",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "LEVEL",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "REQUIREMENT_TYPE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "TITLE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "APPLICABLE_SUBSYSTEM",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "SUBTEAM_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INDIVIDUAL_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VEHICLE_CONFIGURATION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "MISSION_PHASE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "FLIGHT_ATTEMPT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "OPEN_ITEM_STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_OWNER",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_PLAN",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_DUE_DATE",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VERIFICATION_METHOD",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VERIFICATION_PLAN_LINK",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VERIFICATION_RESULT_LINK",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "WAIVER_LINK",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATEMENT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RATIONALE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": [
+                            {
+                                "TYPE": "Parent"
+                            }
+                        ]
+                    },
+                    {
+                        "NODE_TYPE": "RISK",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RISK_TYPE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "TITLE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "SUBTEAM_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INDIVIDUAL_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VEHICLE_CONFIGURATION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "MISSION_PHASE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "FLIGHT_ATTEMPT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INITIAL_LIKELIHOOD",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INITIAL_SEVERITY",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CURRENT_LIKELIHOOD",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CURRENT_SEVERITY",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RISK_RESPONSE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESPONSE_PLAN",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "DUE_DATE",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "LINKED_ARTIFACTS",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "DISPOSITION_NOTES",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CONTENT",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CONDITION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CONSEQUENCE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": [
+                            {
+                                "TYPE": "Parent",
+                                "ROLE": "Affects"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "NODES": [
+                {
+                    "_TOC": "1",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-001",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Maintain Powered Attitude",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can maintain attitude under nominal launch conditions.",
+                    "RATIONALE": "This mission objective demonstrates the program goal of thrust-vector control during powered ascent."
+                },
+                {
+                    "_TOC": "2",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-002",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Respond to Environmental Factors",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can maintain attitude in response to reasonable environmental factors, such as wind gusts. Other environmental factors include temperature, humidity, and pressure.",
+                    "RATIONALE": "This mission objective demonstrates the program goal of thrust-vector control, even in response to expected environmental factors. Reasonable is based on the average expected conditions at the launch site. For example, a reasonable wind condition would be the average maximum gust over the course of a week."
+                },
+                {
+                    "_TOC": "3",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-003",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Capture Social Media Ready Content",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "All",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Achieve social media ready video capture of all launch phases defined in program configuration, with at least two angles of each phase.",
+                    "RATIONALE": "This mission objective supports the overall GNC mission of recruiting and training members for the future, with high-quality social media content an integral part of doing so."
+                },
+                {
+                    "_TOC": "4",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-004",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Rapid Launch Turnaround",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "All",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Achieve a rapid rocket launch turnaround capability, allowing for 3+ launches per launch day, assuming no major failures in any system.",
+                    "RATIONALE": "This mission objective supports the overall GNC mission of rapid launch, reusability, iteration, and testing by allowing for multiple launches each launch day."
+                },
+                {
+                    "_TOC": "5",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-005",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Capture Flight Data",
+                    "SUBTEAM_OWNER": "Systems, Electrical, Software",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Achieve data capture of all important flight parameters, including but not limited to raw sensor output, state estimation data, and state machine status.",
+                    "RATIONALE": "This mission objective supports GNC's goal of iteration by providing data for flight analysis and iteration."
+                },
+                {
+                    "_TOC": "6",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-006",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Recover Vehicle Safely",
+                    "SUBTEAM_OWNER": "Systems, Structures, Electrical, Software",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Parachute Descent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Achieve a soft landing of the rocket under parachute with nominal mission parameters.",
+                    "RATIONALE": "This mission objective supports GNC's goal of rapid launch and reusability, along with preservation of data, and limitation of resources used."
+                },
+                {
+                    "_TOC": "7",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-007",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Vehicle Structural Integrity",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can sustain all loads without structural damage or disassembly, under conditions from all mission phases. This includes any loads as the rocket impacts the ground during recovery.",
+                    "RATIONALE": "This mission objective supports GNC's goal of rapid launch and reusability, along with reducing program costs by allowing components to be reused."
+                },
+                {
+                    "_TOC": "8",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MC-001",
+                    "RECORD_TYPE": "Constraint",
+                    "TITLE": "Vehicle Altitude Condition",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The vehicle shall comply with launch site regulations that the rocket must get off the ground and shall not hit the ground while under motor power, while under nominal rocket conditions.",
+                    "RATIONALE": "This mission constraint ensures that the rocket parameters will allow it to actually get off the ground and stay in the air for the full extent of the motor burn, assuming the controls system keeps the rocket vertical."
+                },
+                {
+                    "_TOC": "9",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-008",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Controls Shutoff Condition",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can shut off controls when determined that the rocket attitude can not be recovered. Shutting off controls is defined as actuating the gimbal to its known 0 position, then cutting power to the gimbal actuators.",
+                    "RATIONALE": "This mission objective ensures that the rocket does not try to control attitude at a point when it can no longer do so, and it may be unsafe to continue attempting to do so. Lower level requirement more clearly defines the conditions where rocket attitude can not be recovered."
+                },
+                {
+                    "_TOC": "10",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-009",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Closed Loop Controls",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can use closed loop controls to control the rocket atttidue under power.",
+                    "RATIONALE": "This mission objective is fundamental to GNCs mission of using active controls."
+                },
+                {
+                    "_TOC": "11",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-010",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Onboard state machine",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle software uses a state machine, with clearly defined state transitions and no undefined states, for all flight conditions.",
+                    "RATIONALE": "A state machine is essential to providing clear activities for each phase of the mission, helping to avoid things such as large if-else statements, among other things."
+                },
+                {
+                    "_TOC": "12",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MC-002",
+                    "RECORD_TYPE": "Constraint",
+                    "TITLE": "NAR Material Standards",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The vehicle shall comply with NAR model rocket safety code (https://www.nar.org/ModelRocketSafetyCode) for materials, not including any metal in rocket externals. ",
+                    "RATIONALE": "GNC launches at NAR launch sites, generally, and it is preferred to comply with as many standards as reasonable. One of these is materials, which should also be a reasonable constraint to meet."
+                },
+                {
+                    "_TOC": "13",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MC-003",
+                    "RECORD_TYPE": "Constraint",
+                    "TITLE": "Range Safety Analysis",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Leads",
+                    "RESOLUTION_PLAN": "Controls should use a completed GNCSim architecture to simulate the exact launch range. TVC-REQ-030 has a clearer resolution plan that should be referenced.",
+                    "RESOLUTION_DUE_DATE": "September 31st",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The mission shall use simulation for establishing a maximum [TBD_LaunchRange] area based on maxumum predicted launch dispersion of the rocket.",
+                    "RATIONALE": "GNC is dedicated to maintaing safe launches, and it is imperative that during launch a safe range is established."
+                },
+                {
+                    "_TOC": "14",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-011",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Removing launch rail",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "Flights 4+",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can nominally launch under no-rail conditions.",
+                    "RATIONALE": "In order to truly demonstrate stabilized flight, the first phase of flight, takeoff, should be done without a launch rail. This requirement is limited to later flights as historically GNC has struggled more with takeoff from the pad."
+                },
+                {
+                    "_TOC": "15",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-012",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Protection against accidents",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can operate under the conditions of common, low-level mistakes that have been made.  ",
+                    "RATIONALE": "The team makes mistakes all the time. We accidentally plug in a wrong battery, we drop items, we forget something at home. It is worth it to consider these common mistakes, and, if easy solutions exist, implement these solutions to give us a better chance of insulating the launch against mistakes."
+                },
+                {
+                    "_TOC": "16",
+                    "_NODE_TYPE": "MISSION_RECORD",
+                    "UID": "TVC-MO-013",
+                    "RECORD_TYPE": "Objective",
+                    "TITLE": "Control Initial Delay",
+                    "SUBTEAM_OWNER": "Software",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "Flights 1-3",
+                    "OPEN_ITEM_STATUS": "None",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Demonstrate that the vehicle can clear the launch rail before beginning to actuate the gimbal.",
+                    "RATIONALE": "The rocket should not attempt to control itself until it has cleared the rail, as the rail is controlling the attitude at this point, and gimballing is likely to just cause more friction between the rail buttons and the rail."
+                }
+            ]
+        },
+        {
+            "_NODE_TYPE": "DOCUMENT",
+            "TITLE": "Requirements",
+            "GRAMMAR": {
+                "ELEMENTS": [
+                    {
+                        "NODE_TYPE": "TEXT",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATEMENT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": []
+                    },
+                    {
+                        "NODE_TYPE": "MISSION_RECORD",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RECORD_TYPE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "TITLE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "SUBTEAM_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INDIVIDUAL_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VEHICLE_CONFIGURATION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "MISSION_PHASE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "FLIGHT_ATTEMPT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "OPEN_ITEM_STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_OWNER",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_PLAN",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_DUE_DATE",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATEMENT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RATIONALE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": []
+                    },
+                    {
+                        "NODE_TYPE": "REQUIREMENT",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "LEVEL",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "REQUIREMENT_TYPE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "TITLE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "APPLICABLE_SUBSYSTEM",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "SUBTEAM_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INDIVIDUAL_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VEHICLE_CONFIGURATION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "MISSION_PHASE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "FLIGHT_ATTEMPT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "OPEN_ITEM_STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_OWNER",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_PLAN",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESOLUTION_DUE_DATE",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VERIFICATION_METHOD",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VERIFICATION_PLAN_LINK",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VERIFICATION_RESULT_LINK",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "WAIVER_LINK",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATEMENT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RATIONALE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": [
+                            {
+                                "TYPE": "Parent"
+                            }
+                        ]
+                    },
+                    {
+                        "NODE_TYPE": "RISK",
+                        "FIELDS": [
+                            {
+                                "TITLE": "UID",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RISK_TYPE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "TITLE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "SUBTEAM_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INDIVIDUAL_OWNER",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "VEHICLE_CONFIGURATION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "MISSION_PHASE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "FLIGHT_ATTEMPT",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INITIAL_LIKELIHOOD",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "INITIAL_SEVERITY",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CURRENT_LIKELIHOOD",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CURRENT_SEVERITY",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RISK_RESPONSE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "RESPONSE_PLAN",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "DUE_DATE",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "LINKED_ARTIFACTS",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "STATUS",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "DISPOSITION_NOTES",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CONTENT",
+                                "REQUIRED": "False",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CONDITION",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            },
+                            {
+                                "TITLE": "CONSEQUENCE",
+                                "REQUIRED": "True",
+                                "TYPE": "String"
+                            }
+                        ],
+                        "RELATIONS": [
+                            {
+                                "TYPE": "Parent",
+                                "ROLE": "Affects"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "NODES": [
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-001",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Ease of Integration",
+                    "APPLICABLE_SUBSYSTEM": "Airframe, Propulsion, Actuation, Recovery",
+                    "SUBTEAM_OWNER": "Systems, Structures, Electrical",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The vehicle shall be fully integrated, launched, and recovered within 2 hours under nominal conditions.",
+                    "RATIONALE": "This requirement decomposes TVC-MO-004, specifically focusing on the vehicle, and giving a specific timeframe for complete turnaround. Most launch sites are open from 10 AM to 4 PM, so 2 hours is the absolute maximum each launch may take. This does not take into account failures, which are varied and more specifically specified in the Concept of Operations documents.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-004"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-002",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Flight Computer Fire Wire",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Recovery, Power",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Parachute Descent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The on board rocket avionics shall have the ability to set off fire wire, with at least 3 channels available to fire.",
+                    "RATIONALE": "This derived requirement ensures the rocket avionics will be able to support redundant single-deploy recovery, along with an extra channel to support landing operations in the future, such as fire wire to release landing legs.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-006"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-003",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Flight Computer Data Logging",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Power, Flight_Software",
+                    "SUBTEAM_OWNER": "Electrical, Software",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The Flight Computer shall log all determined relevant flight data on an onboard SD-Card. This includes all raw sensor data (IMU, Barometer, other peripherals), relevant state estimation outputs (State Vector), actuator command outputs, individual control outputs, timestamps for each set of data, and current state of the state machine.",
+                    "RATIONALE": "This decomposes TVC-MO-005 to apply to flight computer onboard data logging, along with a more specific set of data to collect.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-005"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-004",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Relevant Telemetry Data",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Power, Flight_Software, Ground_Systems",
+                    "SUBTEAM_OWNER": "Electrical, Software",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer shall send relevant flight data to a ground station via telemetry data packets. This includes state estimation outputs (State Vector), actuator commands outputs, individual control outputs, timestamps since launch, and the current state of the state machine.",
+                    "RATIONALE": "This decomposes TVC-MO-005 to apply to telemetry to the ground station, along with more specific information on what to send.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-005"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-005",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Gimbal Minimum Angle",
+                    "APPLICABLE_SUBSYSTEM": "Actuation",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Lead",
+                    "RESOLUTION_PLAN": "Controls subteam will use a completed GNCSim architecture, with an integrated model/simulation of the gimbal, in order to determine the minimum gimbal angle. The simulation shall prove that the minimum gimbal angle (along with other gimbal properties) provided allows the rocket to maintain attitude under environmental conditions. Simulation results must be produced before the gimbal CDR. If GNCSim is not finished/integrated in time to complete this task, off the shelf tools such as aeroVECTOR will be used in replacement.",
+                    "RESOLUTION_DUE_DATE": "October 16th",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The minimum actuation angle the gimbal shall be physically capable of is [TBD_GimAngle] degrees, in all directions (360 degrees).",
+                    "RATIONALE": "Based on results from GNCSim dynamic analysis, this will help establish the minimum ange the gimbal is capable of in order for the rocket to be physically capable of maintaining attitude, a fundamental function the rocket must have in order to meet system goals.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-006",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Gimbal Minimum Velocity",
+                    "APPLICABLE_SUBSYSTEM": "Actuation",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Lead",
+                    "RESOLUTION_PLAN": "Controls subteam will use a completed GNCSim architecture, with an integrated model/simulation of the gimbal, in order to determine the minimum gimbal velocity. The simulation shall prove that the minimum gimbal velocity (along with other gimbal properties) provided allows the rocket to maintain attitude under environmental conditions. Simulation results must be produced before the gimbal CDR. If GNCSim is not finished/integrated in time to complete this task, off the shelf tools such as aeroVECTOR will be used in replacement.",
+                    "RESOLUTION_DUE_DATE": "October 16th",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The minimum velocity the gimbal shall be physically capable of is [TBD_GimVel] degrees/sec.",
+                    "RATIONALE": "Based on results from GNCSim dynamic analysis, this will help establish the minimum speed the gimbal is capable of in order for the rocket to be physically capable of maintainin attitude, a fundamental function the rocket must have to meet system goals.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-007",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Gimbal Minimum Actuation Fidelity",
+                    "APPLICABLE_SUBSYSTEM": "Actuation",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Lead",
+                    "RESOLUTION_PLAN": "Controls subteam will use a completed GNCSim architecture, with an integrated model/simulation of the gimbal, in order to determine the minimum gimbal fidelity. The simulation shall prove that the minimum gimbal fidelity (along with other gimbal properties) provided allows the rocket to maintain attitude under environmental conditions. Simulation results must be produced before the gimbal CDR. If GNCSim is not finished/integrated in time to complete this task, off the shelf tools such as aeroVECTOR will be used in replacement.",
+                    "RESOLUTION_DUE_DATE": "October 16th",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The minimum actuation fidelity the gimbal shall be physically capable of is [TBD_TVCFid] degrees. This means the gimbal shall be able to actuate to positions that are multiples of the actuation fidelity.",
+                    "RATIONALE": "Based on results from GNCSim dynamic analysis, this will help establish the minimum actuation fidelity the gimbal is capable of in order for the rocket to be physically capable of maintainin attitude, a fundamental function the rocket must have to meet system goals.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-008",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Safety",
+                    "TITLE": "PCB Fire Wire Protection",
+                    "APPLICABLE_SUBSYSTEM": "Avionics",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer shall support a physical inhibit/enable switch for the fire wire, with physical on-board feedback of inhibit/enable status that the microntroller can read.",
+                    "RATIONALE": "Inhibiting the fire wire switch is an important safety feature to ensure safe operations while handling the rocket up until launch operations. Feedback ensures the team is aware of the state of the fire wire.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-002"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-009",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "PCB Test Points",
+                    "APPLICABLE_SUBSYSTEM": "Avionics",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "For major board circuitry, such as the recovery circuit, it shall be possible to physically check voltage using test points on the board. Important power lines, recovery circuitry, microntroller debugging, interfaces (CAN, JTAG), and more should include test points.",
+                    "RATIONALE": "This is both an important board design feature to allow for debugging in the case of failures during testing, and any last minute debugging required on the launch site.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-004"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-010",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Flight Computer Accessibility",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Airframe",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "For important flight computer debugging interfaces, such as flashing code and MCU reset, these interfaces shall be accessible during all pre-launch activities until the rocket is placed on the launch rail/pad.",
+                    "RATIONALE": "This requirement ensures rapid debugging in the case of failures, and gives the option for quick fixes without major rocket de-integration.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-004"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-011",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Interface",
+                    "TITLE": "Flight Computer Clearance",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Airframe",
+                    "SUBTEAM_OWNER": "Structures, Electrical",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Analysis",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The avionics bay shall be able to fit all flight computer components in the body tube of the rocket, including any boards, wiring, connectors, power, antennas, etc...",
+                    "RATIONALE": "This requirement ensures spacing requirements for the flight computer will be met.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-007"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-012",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Interface",
+                    "TITLE": "Flight Computer Profile",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Airframe",
+                    "SUBTEAM_OWNER": "Structures, Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer stack bay shall match the max profile, when looking axially along the rocket, as shown in docs/Configuration/Flight Computer Stack Max Profile.png.",
+                    "RATIONALE": "This requirement decomposes TVC-REQ-010, giving an exact profile the flight computer stack (Collection of X boards) may maximally reach. The max profile was found using solidworks basic geometry.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-010"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-013",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Interface",
+                    "TITLE": "Flight Computer Area",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Airframe",
+                    "SUBTEAM_OWNER": "Structures, Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer stack shall have a max footprint of 2.8 inches by 10 inches.",
+                    "RATIONALE": "2.8 inches is the max width of the board, found from solidworks. The length is constrainted to 10 inches to prevent the rocket/avionics bay from lengthening too much, increasing mass.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-010"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-014",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Max Dry Rocket Mass",
+                    "APPLICABLE_SUBSYSTEM": "Airframe, Propulsion, Actuation, Avionics, Power, Recovery",
+                    "SUBTEAM_OWNER": "Structures, Electrical",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The max dry mass of the rocket (mass without motors) shall be a maximum of 1050 grams.",
+                    "RATIONALE": "A simple, 1D simulation was put together in order to Validate this requirement. That simulation can be found in docs/Configuration/TVC-REQ-013 folder. This simple 1-D simulation is required, as OpenRocket cannot properly simulate the full flight of an unstable rocket. The mass of the rocket in the simulation was adjusted to find the absolute maximum mass that allowed for around 50 feet of altitude gain, with some tolerance. This ensures the rocket, assuming a mostly vertical flight, will not reach the ground before motor burnout.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MC-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-015",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Max Gimbal Mass",
+                    "APPLICABLE_SUBSYSTEM": "Actuation",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The max mass of all gimbal components shall be a maximum of 350 grams.",
+                    "RATIONALE": "Using previous program experience. From Scarlet (Gimbaled 2024-2025) the mass of the gimbal was ~200 grams, but increased to ~800 grams on HPRTVC. Seeing as the architecture of Gimbaled TVC (Being low powered) matches Scarlet, but has greater restrictions (Accuracy, Speed, etc..) the mass is taken from Scarlet, with increased tolerance to allow for improved design.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-014"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-016",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Max Avionics Mass",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Power",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The max mass of all avionics components shall be a maximum of 450 grams.",
+                    "RATIONALE": "Using previous program experience. From Scarlet (Gimbaled 2024-2025) the mass of the avionics was ~500 grams, but increased to ~800 grams on HPRTVC. In order to accomodate other rocket changes, such as an improved gimbal, the mass budget for the avionics bay is slightly reduced. This is assumed to be practical, considering electrical team goals to make a lightweight, compact flight computer.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-014"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-017",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Max \"other\" mass",
+                    "APPLICABLE_SUBSYSTEM": "Airframe, Recovery",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The max mass of all non-gimbal, non-avionics components shall be a maximum of 250 grams. ",
+                    "RATIONALE": "Considering TVC-REQ-014 and TVC-REQ-015, the remaining mass in order to meet TVC-REQ-013 is 250g. Seeing as the remaining mass includes airframe, nosecone, and recovery, this is likely a reasonable constraint, especially considering previous program experience.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-014"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-018",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Specific Controls Shutoff Conditions",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Lead",
+                    "RESOLUTION_PLAN": "Once a completed GNCSim architecture has been put together, and the Gimbaled TVC rocket is ready to simulate, a variety of unsafe conditions should be simulated via Monte Carlo (Rocket Angle from Vertical, Angular rates in Pitch, Yaw, and Roll). For each of these factors, a maximum safe condition shall be decided, based on whether the rocket can recover from the condition by the end of the burn of the motor. Because the values are a small change in software, this can be resolved later on in the design cycle. Additionally, GNCSim should simulate what happens after controls shutoff. GNCSim should consider cases of return back to 0, return back to 0 and cut power, just cutting power, etc...",
+                    "RESOLUTION_DUE_DATE": "December 1st",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The rocket controls shall be turned off when unsafe conditions are reached. Unsafe conditions include: (1) Rocket [TBD_UnsafeDeg] degrees from vertical, (2) Rocket has [TBD_UnsafeRate] angular rate in Pitch/Yaw, (3) Rocket has [TBD_UnsafeRate2] angular rate in Roll. Controls shutoff invovles actuating the gimbal to the known 0 position, then cutting power from the gimbal actuators.",
+                    "RATIONALE": "This meets the parent requirement, ensuring that controls are shutoff once angle, or rates, are too high to recover from. At this point, it is assumed the controls are not working as expected, and likely are contributing to rocket unsafe conditions. ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-008"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-019",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "GNCSim for controls algorithm",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The controls team shall develop a full, closed-loop model of the Gimbaled TVC rocket in GNCSim in order find and tune the closed loop controls for the vehicle.",
+                    "RATIONALE": "In order to derive a control loop algorithm, the team must use GNCSim to model the rocket, the control algorithm, and use GNCSim to evaluate the control algorithm (Stability, Response Time, Steady State Error, etc...)",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-009"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-020",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "GNCSim Modelling Inclusions",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "GNCSim shall model multiple rocket elements, including but not limited to: Simple dynamics, Aerodynamics, Sensors, Actuator, Wind, etc...",
+                    "RATIONALE": "Modeling the above rocket elements will help ensure a complete rocket model and that all major factors affecting the rocket state/controls algorithm are accounted for. ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-019"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-021",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Interface",
+                    "TITLE": "GNCSim Aerodynamics Requirements",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Aerodynamics",
+                    "INDIVIDUAL_OWNER": "Aerodynamics Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Aerodynamics shall provide a completed model of the aerodynamics characteristics of the rocket, in the form of a lookup table at various mach speeds and angles of attacks. These characteristics include but are not limited to: Cp location, Lift Coefficient, Drag Coefficient",
+                    "RATIONALE": "Modeling the above rocket elements will help ensure a complete rocket model and that all major factors affecting the rocket state/controls algorithm are accounted for. ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-019"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-022",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Control Loop Overall Architecture",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The controls loop shall use a PID controller.",
+                    "RATIONALE": "PID control is the essential, basic controller, which is the best choice for a smaller rocket with a relatively basic goal. ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-009"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-023",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Control Loop Overall Architecture",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Software",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Every state in the state machine shall have clearly defined entry and exit criteria. Implementation of the entry and exit criteria shall match the criteri and prevent any invalid state transitions (Ex: Transitions to other states when unintended)",
+                    "RATIONALE": "Each state in a state machine must have a way to enter and exit. It is flight critical that the rocket does not enter a state when it is not intended for it to do so. For example, if the rocket were to enter the state pertaining to recovery prematurely, and prematurely deploy the parachute before motor burnout, that would be detrimental to the mission objectives.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-010"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-024",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Motor Burn Time",
+                    "APPLICABLE_SUBSYSTEM": "Propulsion",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The motor shall have a burn time of at least three seconds.",
+                    "RATIONALE": "In order to demonstratably show the rocket controlling its attitude, it must have a long enough burn time to give the control system time to correct any errors in atttitude. Assuming it takes the rocket ~1 second to clear the launch rail, a minimum of a three second burn time gives the rocket ~2 seconds to correct any errors in attitude. From previous program experience, this should be enough to discernebly notice whether the control system is reacting to the other, along with collecting enough data to do so.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-025",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Gimbaled TVC Motor Selection",
+                    "APPLICABLE_SUBSYSTEM": "Propulsion",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The motor for Gimbaled TVC shall be the G12ST.",
+                    "RATIONALE": "The motor was chosen based off the Gimbaled TVC trade study, published in Notion under the Gimbaled TVC project docs (https://app.notion.com/p/LPRTVC-Motor-Trade-Study-3c5b2f334a1e804d9b0cca500c498f73?source=copy_link).",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-024"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-026",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Constraining Motor in Gimbal",
+                    "APPLICABLE_SUBSYSTEM": "Propulsion",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "Flight 1",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The motor shall be properly constrained in the rocket, where it does not fall out under normal pre-launch activities, at all times from pre-launch to end of the mision.",
+                    "RATIONALE": "Constraining the motor is important to ensure flight operations go smoothly and the motor can properly transfer force to the vehicle.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-007"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-027",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Parachute Release Conditions",
+                    "APPLICABLE_SUBSYSTEM": "Recovery, Flight_Software, Avionics",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Parachute Descent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The recovery system shall be deployed at the minimum expected velocity of the rocket, which is also apogee. Once the barometer data has no readings greater than a previous reading for >0.5 seconds, the fire wire should be set off.",
+                    "RATIONALE": "The parachute should be deployed at minumum velocity (apogee) to reduce loads on the chute and other recovery hardware. This condition can be most easily read by the barometer.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-006"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-028",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Rocket Airframe Material",
+                    "APPLICABLE_SUBSYSTEM": "Airframe",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Analysis",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The rocket shall use cardboard as the material for its airframe.",
+                    "RATIONALE": "Carboard is a lightweight material common for Low Power rockets. It is less dense than blue tube, and from previous program experience it is well equipped to experience the expected loads ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-007"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-029",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Rocket Airframe and Nosecone Material",
+                    "APPLICABLE_SUBSYSTEM": "Airframe",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Analysis",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The rocket shall use no metal in the cardboard airframe, in the nosecone, and any gimbal components that are not constrained in the body tube.",
+                    "RATIONALE": "NAR regulations do not allow metal in the externals of the rocket, this requirement decomposes the parent requirement to apply to specific components.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MC-002"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-030",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Safety",
+                    "TITLE": "Range Safety Constraints",
+                    "APPLICABLE_SUBSYSTEM": "N_A",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Lead",
+                    "RESOLUTION_PLAN": "The requirement lists the resolution plan. GNCSim shall simulate the rocket dispersion under thrust to close this requirement.",
+                    "RESOLUTION_DUE_DATE": "September 30th, 2026",
+                    "VERIFICATION_METHOD": "Analysis",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The rocket launch range, [TBD_LaunchRange], shall be derived via Monte Carlo flight dynamic simulation. The vehicle's max TVC limit, aerodynamic load range, maximum determined failire modes should be considered. For range safety, altitude shall not be a consideration (At any range, the rocket is deemed unsafe, even if at a higher altitude)",
+                    "RATIONALE": "This requirement decomposes the parent requirement by specifically requiring dynamic analysis to find launch range, and setting specific constraints.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MC-003"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-031",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Safety",
+                    "TITLE": "Launch Rail Usage",
+                    "APPLICABLE_SUBSYSTEM": "Ground_Systems",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "Flights 1-3",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The mission shall use a team-built launch rail and team-built method to ignite the rocket, where both can be placed wherever without any problem.  ",
+                    "RATIONALE": "This requirement ensures range safety will be met by allowing the rocket to be placed anywhere on the launch site. ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MC-003"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-032",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Safety",
+                    "TITLE": "Ground Ignition System",
+                    "APPLICABLE_SUBSYSTEM": "Ground_Systems",
+                    "SUBTEAM_OWNER": "Structures, Electrical, Software",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBR",
+                    "RESOLUTION_OWNER": "Electrical",
+                    "RESOLUTION_PLAN": "Once launch range has been established, the exact microcontroller and wireless communication method will be decided. For example, if launch range is expected to be over 300 feet, the Raspberry Pi wifi capabilities may not be sufficient.",
+                    "RESOLUTION_DUE_DATE": "October 31st, 2026",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The team-built rocket ignition method shall use a Commerical off the shelf (COTS) micrcontroller (Such as Raspberry Pi), using an e-match and supporting components (Ex: Wiring). The micrcontroller must have built in wireless communication capabilities or include a component (such as an external radio) that allows it to do so. The wireless communication method shall be: [TBD_WirelessCommMethod].",
+                    "RATIONALE": "Using a COTS microcontroller reduces complexity of the ground ignition system, and wireless communication is a must-have to allow the launch range to be met. The exact method of sending the ignition signal is TBD depending on how large the range actually is.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-030"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-033",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Removable launch rail ",
+                    "APPLICABLE_SUBSYSTEM": "Ground_Systems",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The designed team-built launchpad shall have a removable launch rail.",
+                    "RATIONALE": "This ensures the team must only design/manufacture one launchpad, that is both applicable for launches with and without using a launch rail.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-011"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-034",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Black Powder Used",
+                    "APPLICABLE_SUBSYSTEM": "Recovery",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Structures",
+                    "RESOLUTION_PLAN": "Black Powder testing, where the entire recovery system is placed in the rokcet tube and black powder is ejected on the ground, will determine the sufficient amount of black powder.",
+                    "RESOLUTION_DUE_DATE": "October 30th, 2026",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The rocket shall use a sufficient amount of black powder in order to effectively release the parachute system, [TBD_BlackPowder] grams at a minimum.",
+                    "RATIONALE": "An insufficient amount of black powder will lead to a stuck nosecone and a failure to effectively recover the rocket.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-006"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-035",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Recovery Electrical Independence",
+                    "APPLICABLE_SUBSYSTEM": "Recovery, Avionics",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Parachute Descent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer's recovery electrical power system shall operate independently from other board functions such as primariy flight control, using dedicated poewr rails and isolated distribution paths.",
+                    "RATIONALE": "Effective recovery means ensuring the fire wire is never set off accidentally. This is also a safety concern. Power system independence reduces the chance of a design error causing current/voltage surges.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-006"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-036",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Recovery Parachute Sizing",
+                    "APPLICABLE_SUBSYSTEM": "Recovery",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Parachute Descent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The descent rate of the rocket shall be under 20 feet per second while under parachute",
+                    "RATIONALE": "20 feet per second is model rocketry standard parachute descent rate to ensure a safe recovery and low ground hit speed.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-006"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-037",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Physical",
+                    "TITLE": "Harness/Wiring Effective Routing",
+                    "APPLICABLE_SUBSYSTEM": "Airframe, Avionics, Actuation, Recovery",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "All",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "All wiring in the rocket shall be tied off (mounted) at a maximum distance between ties of 0.75 inches.",
+                    "RATIONALE": "NASA STD-8739.4 gives standards for wire harnesses, and tells us that at a wire diameter of 0.25 inches or less, maximum tie off distance should be 0.75 inches. While not all wire gauges have been decided, it is likely that most wries will end up smaller than 0.25 inches, so this requirement is applied to the entire rocket. This is decomposed from TVC-MO-007, where wires coming loose is considerd \"disassembly\".",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-007"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-038",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Launch State Transition",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Software",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight software shall detect launch, and once it does transition the state machine to powered ascent (Where active controls will be active). The conditions to detect launch shall be: Acceleration above +0.5G for 50 ms.",
+                    "RATIONALE": "According to OpenRocket, the thrust:weight ratio off the pad is ~2. Removing gravity, this is 1G acceleration. Applying a scaling factor of 0.5, which balances sensitivty and gives a tolerance for acceleration, this gives a launch condition of +0.5G. 50ms ensures that random disturbances do not trigger the launch (Control loop runs at >20Hz), while also ensuring that launch is detected quickly, reducing time when the rocket does not control itself.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-010"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-039",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Performance",
+                    "TITLE": "Battery performance and life",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Power",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Analysis",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The vehicle battery shall last at least two hours under nominal expected operating conditions. Nominal operating conditions include power being on for 2 hours, with at least half an hour of actuation testing and other misc. testing and launch activities.",
+                    "RATIONALE": "In order to provide turnaround in two hours, it will be difficult to do so if having to replace the battery often. Ensuring the battery needs to be replaced, at a maximum, once between flights ensures there is no time wasted between launch turnaround time.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-040",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Overcurrent/Reverse Polarity Protections",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Power",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer, and other supporting boards, shall have protection against overcurrent and reverse voltage. ",
+                    "RATIONALE": "A common club mistake has been plugging incorrect batteries/reversing battery connectors. To help prevent these mistakes crippling launch, boards must not be affected by incorrect power being plugged in.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-012"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-041",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Labeling Wires Before Launch",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Power, Actuation",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "Every single cable that is used for launch, ranging from servo cables for the actuators, to CAN connection, to JTAG connectors, shall be labeled before leaving for the launch site.",
+                    "RATIONALE": "Cables can be plugged in incorrectly, and labeling all of them beforehand gives time to double check connections beforehand and prevent on-site quick decisions from de-railing launches. This also helps improve turnaround as less time is spent deciding exactly which cables need to be plugged in where.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-012"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-042",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Design Constraint",
+                    "TITLE": "Gimbal Replaceable Motor Case",
+                    "APPLICABLE_SUBSYSTEM": "Propulsion, Actuation",
+                    "SUBTEAM_OWNER": "Structures",
+                    "INDIVIDUAL_OWNER": "Structures Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The gimbal design shall use an easily replaceable motor holder.",
+                    "RATIONALE": "The motor holder, historically, has warped under heating from the motor. Instead of requiring the motor holder to be designed to handle the heat, this requirement allows warping, and replacing the motor in the engine is a motor of replacing the motor and holder as a unit.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-012"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-043",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "No last Minute Changes",
+                    "APPLICABLE_SUBSYSTEM": "N_A",
+                    "SUBTEAM_OWNER": "Systems",
+                    "INDIVIDUAL_OWNER": "Systems Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The rocket and supporting systems shall prevent any last minute changes made to the design, structures, flight software, avionics, etc... Note: Last minute is defined differently for different subsystems.",
+                    "RATIONALE": "Last minute changes are easy ways to introduce errors into the rocket. Last minute changes rarely can be tested, and if done quickly are more likely to contain mistakes. ",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-012"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-044",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Flight Software Changes",
+                    "APPLICABLE_SUBSYSTEM": "Flight_Software",
+                    "SUBTEAM_OWNER": "Software",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Pre-Launch",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Inspection",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight software and supporting systems that the rocket will use shall prevent changes less than 0.5 weeks before the expected launch date. Tracking for flight software shall be done using github, and no commits from after the 0.5 week cutoff shall be used in the flight software for launch. For each version of flight software that is flown on a rocket, it must be tagged in Github with the flight number. (Tag: Flight #).",
+                    "RATIONALE": "This requirement decomposes the parent requirement to require a specific cutoff for changes to the flight software, along with requiring tags to improve traceability.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-043"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-045",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Flight Computer Controls Ability",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls",
+                    "RESOLUTION_PLAN": "Need to find required control loop update rate, Requirement TVC-REQ-047 lists the full completion plan to get this value.",
+                    "RESOLUTION_DUE_DATE": "Refer to TVC-REQ-047",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer shall be capable of running the controls algorithm at the required rate (Refer to TVC-REQ-047). It must also include all required minimum sensors and be able to read sensor data. Minimum sensors: IMU, Magnetometer, Barometer, GPS",
+                    "RATIONALE": "In order to run on-board controls, the flight computer must do so. It shall not be a limiting factor for the control loop rate. The flight computer also must have the required sensors to do GNC.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-009"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-046",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Flight Computer TVC Ability",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software, Actuation",
+                    "SUBTEAM_OWNER": "Electrical",
+                    "INDIVIDUAL_OWNER": "Electrical Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBR",
+                    "RESOLUTION_OWNER": "Controls lead",
+                    "RESOLUTION_PLAN": "Once controls has resolved the minimum Gimbal Velocity, this help establish how quickly the update rate of the gimbal must be. Refer to TVC-REQ-006 for a more detailed resolution plan.",
+                    "RESOLUTION_DUE_DATE": "Refer to TVC-REQ-006",
+                    "VERIFICATION_METHOD": "Test",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight computer shall be capable of controlling the actuators for the gimbal. It shall be able to send commands in order to meet minimum requirements for speed of the gimbal (TVC-REQ-006), [TBD_GimbalVelocity]",
+                    "RATIONALE": "The flight computer must be able to control the gimbal to allow for effective closed loop on-board controls.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-009"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-047",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Performance",
+                    "TITLE": "Flight loop update rate",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Software",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls Lead, Ilan V.",
+                    "RESOLUTION_PLAN": "Need to consider Nyquist Criterion, etc... in order to decide proper update rate to allow for a controller that updates quickly enough to ensure closed loop controls can be achieved.",
+                    "RESOLUTION_DUE_DATE": "September 18",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight software loop shall run at a minimum of [TBD_UpdateRate] Hz.",
+                    "RATIONALE": "Need to have a minumum control loop run in order to ensure the TVC is reacting quickly enough.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-009"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L2",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-048",
+                    "LEVEL": "L2",
+                    "REQUIREMENT_TYPE": "Performance",
+                    "TITLE": "Sensor Update Rate",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Software",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "TBD",
+                    "RESOLUTION_OWNER": "Controls",
+                    "RESOLUTION_PLAN": "Need to find required control loop update rate, Requirement TVC-REQ-047 lists the full completion plan to get this value.",
+                    "RESOLUTION_DUE_DATE": "Refer to TVC-REQ-047",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "All sensors shall have a minumum udpate rate of [TBD_UpdateRate] Hz.",
+                    "RATIONALE": "Controls requires a minimum update rate of the control loop, and the controllers must follow this update rate to support this control loop rate.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-REQ-046"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-049",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Kalman Filter Usage",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Software, Controls",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The flight software shall implement a Kalman filter for state estimation.",
+                    "RATIONALE": "Kalman filter is an industry standard method of improving the accuracy of state estimation, which will improve the quality of the rocket closed loop controls.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-009"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-050",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Performance",
+                    "TITLE": "Flight Algorithm Stability",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Controls",
+                    "INDIVIDUAL_OWNER": "Controls Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "All",
+                    "OPEN_ITEM_STATUS": "None",
+                    "VERIFICATION_METHOD": "Analysis",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The controls algorithm shall be demonstratably stable over the course of the rockt's flight, within the expected controls range (Max angle of attack before controls is turned off).",
+                    "RATIONALE": "In order to effectively stabilize the rocket, the flight algorithm must be stable over the course of the flight. Oscillations, exponential increases, etc... are all indicative of non-stable controls algorithm.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-001"
+                        }
+                    ]
+                },
+                {
+                    "_TOC": "L1",
+                    "_NODE_TYPE": "REQUIREMENT",
+                    "UID": "TVC-REQ-051",
+                    "LEVEL": "L1",
+                    "REQUIREMENT_TYPE": "Functional",
+                    "TITLE": "Controls algorithm delay",
+                    "APPLICABLE_SUBSYSTEM": "Avionics, Flight_Software",
+                    "SUBTEAM_OWNER": "Software, Controls",
+                    "INDIVIDUAL_OWNER": "Software Lead",
+                    "VEHICLE_CONFIGURATION": "TVC-F1",
+                    "MISSION_PHASE": "Powered Ascent",
+                    "FLIGHT_ATTEMPT": "Flights 1-3",
+                    "OPEN_ITEM_STATUS": "TBR",
+                    "RESOLUTION_OWNER": "Structures",
+                    "RESOLUTION_PLAN": "Waiting for a decision on launch rail height. Once rail height has been found, need to research how to simulate launch rail friction/loads for rocket, to find how long it would take the rocket to clear the rail. ",
+                    "RESOLUTION_DUE_DATE": "November 30th",
+                    "VERIFICATION_METHOD": "Demonstration",
+                    "STATUS": "Draft",
+                    "STATEMENT": "The controls algorithm shall be delayed by [TBD_DelaySeconds] after launch is detected, before active controls are activated.",
+                    "RATIONALE": "Need to set a specific delay before the rocket begins controlling the gimbal, in order for the rocket to clear the rail before starting active controls. Use rail length to determine the length.",
+                    "RELATIONS": [
+                        {
+                            "TYPE": "Parent",
+                            "VALUE": "TVC-MO-013"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

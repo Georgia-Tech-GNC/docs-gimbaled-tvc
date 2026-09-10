@@ -1,0 +1,3 @@
+<div class="document">
+<p>In order to effectively stabilize the rocket, the flight algorithm must be stable over the course of the flight. Oscillations, exponential increases, etc... are all indicative of non-stable controls algorithm.</p>
+</div>
