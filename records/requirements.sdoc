@@ -40,8 +40,8 @@ OPEN_ITEM_STATUS: None
 VERIFICATION_METHOD: Test
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-002.md
 STATUS: Draft
-STATEMENT: The on board rocket avionics shall have the ability to set off fire wire, with at least 3 channels available to fire.
-RATIONALE: This derived requirement ensures the rocket avionics will be able to support redundant single-deploy recovery, along with an extra channel to support landing operations in the future, such as fire wire to release landing legs.
+STATEMENT: The on board rocket avionics shall have the ability to set off fire wire, with at least 2 channels available to fire.
+RATIONALE: This derived requirement ensures the rocket avionics will be able to support redundant single-deploy recovery.
 RELATIONS:
 - TYPE: Parent
   VALUE: TVC-MO-006
@@ -196,7 +196,7 @@ OPEN_ITEM_STATUS: None
 VERIFICATION_METHOD: Inspection
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-009.md
 STATUS: Draft
-STATEMENT: For major board circuitry, such as the recovery circuit, it shall be possible to physically check voltage using test points on the board. Important power lines, recovery circuitry, microcontroller debugging, interfaces (CAN, JTAG), and more should include test points.
+STATEMENT: For major board circuitry, such as the recovery circuit, it shall be possible to physically check voltage using test points on the board. Important power lines, recovery circuitry, microcontroller debugging, interfaces (CAN, JTAG), and more shall include test points.
 RATIONALE: This is both an important board design feature to allow for debugging in the case of failures during testing, and any last minute debugging required on the launch site.
 RELATIONS:
 - TYPE: Parent
@@ -281,7 +281,7 @@ VERIFICATION_METHOD: Inspection
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-013.md
 STATUS: Draft
 STATEMENT: The flight computer stack shall have a max footprint of 2.8 inches by 10 inches.
-RATIONALE: 2.8 inches is the max width of the board, found from solidworks. The length is constrained to 10 inches to prevent the rocket/avionics bay from lengthening too much, increasing mass.
+RATIONALE: 2.8 inches is the max width of the flight computer stack, found from solidworks. The length is constrained to 10 inches to prevent the rocket/avionics bay from lengthening too much, increasing mass.
 RELATIONS:
 - TYPE: Parent
   VALUE: TVC-REQ-010
@@ -410,7 +410,7 @@ VERIFICATION_METHOD: Inspection
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-019.md
 STATUS: Draft
 STATEMENT: The controls team shall develop a full, closed-loop model of the Gimbaled TVC rocket in GNCSim in order find and tune the closed loop controls for the vehicle.
-RATIONALE: In order to derive a control loop algorithm, the team must use GNCSim to model the rocket, the control algorithm, and use GNCSim to evaluate the control algorithm (Stability, Response Time, Steady State Error, etc...)
+RATIONALE: In order to derive a control loop algorithm, the team shall use GNCSim to model the rocket, the control algorithm, and use GNCSim to evaluate the control algorithm (Stability, Response Time, Steady State Error, etc...)
 RELATIONS:
 - TYPE: Parent
   VALUE: TVC-MO-009
@@ -568,8 +568,8 @@ LEVEL: L1
 REQUIREMENT_TYPE: Functional
 TITLE: Parachute Release Conditions
 APPLICABLE_SUBSYSTEM: Recovery, Flight_Software, Avionics
-SUBTEAM_OWNER: Structures
-INDIVIDUAL_OWNER: Structures Lead
+SUBTEAM_OWNER: Software
+INDIVIDUAL_OWNER: Software Lead
 VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: Parachute Descent
 FLIGHT_ATTEMPT: All
@@ -677,7 +677,7 @@ REQUIREMENT_TYPE: Safety
 TITLE: Ground Ignition System
 APPLICABLE_SUBSYSTEM: Ground_Systems
 SUBTEAM_OWNER: Structures, Electrical, Software
-INDIVIDUAL_OWNER: Structures Lead
+INDIVIDUAL_OWNER: Electrical Lead
 VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: All
 FLIGHT_ATTEMPT: All
@@ -688,7 +688,7 @@ RESOLUTION_DUE_DATE: October 31st, 2026
 VERIFICATION_METHOD: Demonstration
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-032.md
 STATUS: Draft
-STATEMENT: The team-built rocket ignition method shall use a Commerical off the shelf (COTS) micrcontroller (Such as Raspberry Pi), and use an e-match along with supporting components (Ex: Wiring). The micrcontroller must have built in wireless communication capabilities or include a component (such as an external radio) that allows it to do so. The wireless communication method shall be: [TBD_WirelessCommMethod].
+STATEMENT: The team-built rocket ignition method shall use a Commerical off the shelf (COTS) micrcontroller (Such as Raspberry Pi), and use an e-match along with supporting components (Ex: Wiring). The micrcontroller shall have built in wireless communication capabilities or include a component (such as an external radio) that allows it to do so. The wireless communication method shall be: [TBD_WirelessCommMethod].
 RATIONALE: Using a COTS microcontroller reduces complexity of the ground ignition system, and wireless communication is a must-have to allow the launch range to be met. The exact method of sending the ignition signal is TBD depending on how large the range actually is.
 RELATIONS:
 - TYPE: Parent
@@ -970,7 +970,7 @@ RESOLUTION_DUE_DATE: Refer to TVC-REQ-047
 VERIFICATION_METHOD: Test
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-045.md
 STATUS: Draft
-STATEMENT: The flight computer shall be capable of running the controls algorithm at the required rate (Refer to TVC-REQ-047). It must also include all required minimum sensors and be able to read sensor data. Minimum sensors: IMU, Magnetometer, Barometer, GPS
+STATEMENT: The flight computer shall be capable of running the controls algorithm at the required rate (Refer to TVC-REQ-047). It must also include all required minimum sensors and be able to read sensor data. Minimum sensors: IMU, Barometer
 RATIONALE: In order to run on-board controls, the flight computer must do so. It shall not be a limiting factor for the control loop rate. The flight computer also must have the required sensors to do GNC.
 RELATIONS:
 - TYPE: Parent
@@ -1030,7 +1030,7 @@ LEVEL: L2
 REQUIREMENT_TYPE: Performance
 TITLE: Sensor Update Rate
 APPLICABLE_SUBSYSTEM: Avionics, Flight_Software
-SUBTEAM_OWNER: Software
+SUBTEAM_OWNER: Software, Electrical
 INDIVIDUAL_OWNER: Software Lead
 VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: Powered Ascent
