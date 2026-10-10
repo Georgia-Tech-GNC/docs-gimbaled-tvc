@@ -1,0 +1,1 @@
+Ensure that a model is created of the servo, and confirm with controls that it can be used to create a transfer function for their model.

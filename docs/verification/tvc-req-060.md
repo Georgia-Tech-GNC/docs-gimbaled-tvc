@@ -1,0 +1,1 @@
+Before flight, at least 2 non-controls members should be walked through the simulations done in GNCSim and confirm that the monte-carlo show the rocket stabilizations

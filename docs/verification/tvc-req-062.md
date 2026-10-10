@@ -1,0 +1,1 @@
+Once servo testing is complete, ensure position and speed data has been collected. Confirm with controls that the SysID is done properly and a transfer function can be used to create the model.

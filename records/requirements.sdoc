@@ -92,7 +92,7 @@ RELATIONS:
 UID: TVC-REQ-005
 LEVEL: L1
 REQUIREMENT_TYPE: Performance
-TITLE: Gimbal Minimum Angle
+TITLE: Gimbal Minimum Angle (ARCHIVED, REFER TO TVC-REQ-060 FOR UPDATED GIMBAL REQUIREMENT)
 APPLICABLE_SUBSYSTEM: Actuation
 SUBTEAM_OWNER: Structures
 INDIVIDUAL_OWNER: Structures Lead
@@ -116,7 +116,7 @@ RELATIONS:
 UID: TVC-REQ-006
 LEVEL: L1
 REQUIREMENT_TYPE: Performance
-TITLE: Gimbal Minimum Velocity
+TITLE: Gimbal Minimum Velocity (ARCHIVED, REFER TO TVC-REQ-060 FOR UPDATED GIMBAL REQUIREMENT)
 APPLICABLE_SUBSYSTEM: Actuation
 SUBTEAM_OWNER: Structures
 INDIVIDUAL_OWNER: Structures Lead
@@ -140,7 +140,7 @@ RELATIONS:
 UID: TVC-REQ-007
 LEVEL: L1
 REQUIREMENT_TYPE: Performance
-TITLE: Gimbal Minimum Actuation Fidelity
+TITLE: Gimbal Minimum Actuation Fidelity (ARCHIVED, REFER TO TVC-REQ-060 FOR UPDATED GIMBAL REQUIREMENT)
 APPLICABLE_SUBSYSTEM: Actuation
 SUBTEAM_OWNER: Structures
 INDIVIDUAL_OWNER: Structures Lead
@@ -343,7 +343,7 @@ OPEN_ITEM_STATUS: None
 VERIFICATION_METHOD: Inspection
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-016.md
 STATUS: Draft
-STATEMENT: The max mass of all avionics components shall be a maximum of 450 grams.
+STATEMENT: The max mass of all avionics components shall be a maximum of 350 grams.
 RATIONALE: Using previous program experience. From Scarlet (Gimbaled 2024-2025) the mass of the avionics was ~500 grams, but increased to ~800 grams on HPRTVC. In order to accomodate other rocket changes, such as an improved gimbal, the mass budget for the avionics bay is slightly reduced. This is assumed to be practical, considering electrical team goals to make a lightweight, compact flight computer. Evidence used: Scarlet OpenRocket (https://gtvault.sharepoint.com/:u:/s/gnc/IQDRCPbbADz0RYDQvH_F3RmwAXq7m1veWlWSwlan1esaDzY?e=n7STTH), HPRTVC masses (https://gtvault.sharepoint.com/:x:/s/gnc/IQCGeS3jqrzLSpojEPm9eAjLARGwMWSQHF-htBPefCFhMYI?e=eN0qTY)
 RELATIONS:
 - TYPE: Parent
@@ -364,7 +364,7 @@ OPEN_ITEM_STATUS: None
 VERIFICATION_METHOD: Inspection
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-017.md
 STATUS: Draft
-STATEMENT: The max mass of all non-gimbal, non-avionics components shall be a maximum of 200 grams. 
+STATEMENT: The max mass of all non-gimbal, non-avionics components shall be a maximum of 350 grams. 
 RATIONALE: Considering TVC-REQ-014 and TVC-REQ-015, the remaining mass in order to meet TVC-REQ-014 is 250g. 200g is set as the requirement to allow for a margin in the rocket mass (5%, but other components also include a margin).Seeing as the remaining mass includes airframe, nosecone, and recovery, this is likely a reasonable constraint, especially considering previous program experience.
 RELATIONS:
 - TYPE: Parent
@@ -489,7 +489,10 @@ INDIVIDUAL_OWNER: Software Lead
 VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: All
 FLIGHT_ATTEMPT: All
-OPEN_ITEM_STATUS: None
+OPEN_ITEM_STATUS: TBR
+RESOLUTION_OWNER: Software Lead
+RESOLUTION_PLAN: Once state machine is more well defined, revesit the requirement and enforce specific state transitions based on TBR document that will outline each state transition and the conditions to make those transitions.
+RESOLUTION_DUE_DATE: End of November
 VERIFICATION_METHOD: Test
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-023.md
 STATUS: Draft
@@ -1012,14 +1015,14 @@ VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: Powered Ascent
 FLIGHT_ATTEMPT: All
 OPEN_ITEM_STATUS: TBD
-RESOLUTION_OWNER: Controls Lead, Ilan V.
+RESOLUTION_OWNER: Controls Lead
 RESOLUTION_PLAN: Need to consider Nyquist Criterion, etc... in order to decide proper update rate to allow for a controller that updates quickly enough to ensure closed loop controls can be achieved.
 RESOLUTION_DUE_DATE: September 18
 VERIFICATION_METHOD: Demonstration
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-047.md
 STATUS: Draft
-STATEMENT: The flight software loop shall run at a minimum of [TBD_UpdateRate] Hz.
-RATIONALE: Need to have a minumum control loop run in order to ensure the TVC is reacting quickly enough.
+STATEMENT: The flight software loop shall run at a minimum of [TBD_UpdateRate] Hz and a maximum of 333 Hz.
+RATIONALE: Need to have a minumum control loop run in order to ensure the TVC is reacting quickly enough. That being said, the servos have a command frequency (recommended) for 333 Hz, and this sets an upper limit for the update rate of the flight loop.
 RELATIONS:
 - TYPE: Parent
   VALUE: TVC-MO-009
@@ -1059,11 +1062,14 @@ INDIVIDUAL_OWNER: Software Lead
 VEHICLE_CONFIGURATION: TVC-F1
 MISSION_PHASE: Powered Ascent
 FLIGHT_ATTEMPT: All
-OPEN_ITEM_STATUS: None
+OPEN_ITEM_STATUS: TBD
+RESOLUTION_OWNER: Controls Lead
+RESOLUTION_PLAN: Once system has been more well defined, especially sensors, use sensor datasheets/noise information to decide RMS.
+RESOLUTION_DUE_DATE: End of November
 VERIFICATION_METHOD: Demonstration
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-049.md
 STATUS: Draft
-STATEMENT: The flight software shall implement a Kalman filter for state estimation.
+STATEMENT: The flight software shall implement a Kalman filter for state estimation. The Kalman filter shall have P matrix covariance less than Q and R, and an RMS less than TBD.
 RATIONALE: Kalman filter is an industry standard method of improving the accuracy of state estimation, which will improve the quality of the rocket closed loop controls.
 RELATIONS:
 - TYPE: Parent
@@ -1108,7 +1114,7 @@ RESOLUTION_DUE_DATE: November 30th
 VERIFICATION_METHOD: Demonstration
 VERIFICATION_PLAN_LINK: docs/verification/tvc-req-051.md
 STATUS: Draft
-STATEMENT: The controls algorithm shall be delayed by [TBD_DelaySeconds] after launch is detected, before active controls are activated.
+STATEMENT: The controls algorithm shall be delayed by [TBD_DelaySeconds] after launch is detected, before active controls are activated. This delay shall be baked into the powered ascent state.
 RATIONALE: Need to set a specific delay before the rocket begins controlling the gimbal, in order for the rocket to clear the rail before starting active controls. Use rail length to determine the length.
 RELATIONS:
 - TYPE: Parent
@@ -1281,3 +1287,66 @@ RATIONALE: This ensures no last minute detrimental change to gains, but still al
 RELATIONS:
 - TYPE: Parent
   VALUE: TVC-REQ-043
+
+[REQUIREMENT]
+UID: TVC-REQ-060
+LEVEL: L1
+REQUIREMENT_TYPE: Performance
+TITLE: Controls Algorithm Gimbal Performance
+APPLICABLE_SUBSYSTEM: Flight_Software
+SUBTEAM_OWNER: Controls
+INDIVIDUAL_OWNER: Controls Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: All
+FLIGHT_ATTEMPT: Flight 1
+OPEN_ITEM_STATUS: None
+VERIFICATION_METHOD: Inspection
+VERIFICATION_PLAN_LINK: docs/verification/tvc-req-060.md
+STATUS: Draft
+STATEMENT: The controls algorithm shall accurately model the gimbal and, through simulation, demonstratably be able to control the attitude of the rocket under nominal and environmental conditions outlined in TVC-MO-002.
+RATIONALE: The gimbal does not have any strict requirements, so this requirement applies to the control algorithm being able to control the rocket, based on the gimbal that is created. 
+RELATIONS:
+- TYPE: Parent
+  VALUE: TVC-MO-001
+
+[REQUIREMENT]
+UID: TVC-REQ-061
+LEVEL: L2
+REQUIREMENT_TYPE: Performance
+TITLE: Gimbal Required Modeling
+APPLICABLE_SUBSYSTEM: Actuation
+SUBTEAM_OWNER: Structures
+INDIVIDUAL_OWNER: Structures Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: All
+FLIGHT_ATTEMPT: Flight 1
+OPEN_ITEM_STATUS: None
+VERIFICATION_METHOD: Inspection
+VERIFICATION_PLAN_LINK: docs/verification/tvc-req-061.md
+STATUS: Draft
+STATEMENT: The gimbal's position shall be modeled, with servo position and speed as the input to the model. The gimbal's position is what is modeled.
+RATIONALE: In order to accurately model the gimbal and demonstrate rocket controllability, controls needs a model of the gimbal, which structures must complete. 
+RELATIONS:
+- TYPE: Parent
+  VALUE: TVC-REQ-060
+
+[REQUIREMENT]
+UID: TVC-REQ-062
+LEVEL: L2
+REQUIREMENT_TYPE: Performance
+TITLE: Servo Required Modeling
+APPLICABLE_SUBSYSTEM: Actuation
+SUBTEAM_OWNER: Structures
+INDIVIDUAL_OWNER: Structures Lead
+VEHICLE_CONFIGURATION: TVC-F1
+MISSION_PHASE: All
+FLIGHT_ATTEMPT: Flight 1
+OPEN_ITEM_STATUS: None
+VERIFICATION_METHOD: Inspection
+VERIFICATION_PLAN_LINK: docs/verification/tvc-req-062.md
+STATUS: Draft
+STATEMENT: The servo shall be modeled via physical ID (Using an encoder), where position and speed data is collected to build a model of the servo. Loading conditions shall be considered.
+RATIONALE: In order to accurately model the gimbal, an ID needs to be done on the servo we will be using. Speed and position will be used as inputs for the gimbal model.
+RELATIONS:
+- TYPE: Parent
+  VALUE: TVC-REQ-060
